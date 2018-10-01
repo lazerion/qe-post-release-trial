@@ -1,9 +1,7 @@
 package com.hazelcast.qe
 
 import com.lesfurets.jenkins.unit.global.lib.SourceRetriever
-import groovy.transform.CompileStatic
 
-@CompileStatic
 class NonVersionedLocalSource implements SourceRetriever {
     String sourceURL
 
