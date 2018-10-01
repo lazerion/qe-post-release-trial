@@ -11,23 +11,3 @@ node() {
         utils.ssh("address")
     }
 }
-
-// uncomment to test with declarative after removing above node declaration
-//pipeline {
-//    agent any
-//    options {
-//        buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeepStr: '10'))
-//    }
-//    stages {
-//        stage('Pipeline Start') {
-//            steps {
-//                script {
-//                    def utils = new Utils(this)
-//                    utils.ssh('test')
-//                }
-//            }
-//
-//        }
-//    }
-//}
-//
