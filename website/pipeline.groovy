@@ -11,7 +11,8 @@ node() {
         utils.ssh("address")
     }
 }
-//
+
+// uncomment to test with declarative after removing above node declaration
 //pipeline {
 //    agent any
 //    options {
